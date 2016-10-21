@@ -48,6 +48,7 @@
         };
       },
 
+//Unable to find why "onActivated" is not a function. Lacking knowledge... who can help?
       onActivated: function() {
             this.idx = this.ticket().requester().id();
             this.switchTo('loading');
