@@ -1,0 +1,24 @@
+<table class="tg" width="320px">
+  <tr>
+    <th class="tg-yw4l"><label>Customer Mood</label></th>
+    <th class="tg-yw4l"><label>Weather</label></th>
+  </tr>
+  <tr>
+    <th class="tg-yw4l" width="150px"> <img class="imgcls" src="{{ assetURL 'smile.png' }}" alt="smile" /></th>
+    <th class="tg-yw4l" height="50px"><img class="imgcls" src="{{ assetURL  weatherIcon }}" alt="weather" /></th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <hr>
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l-c" height="5"><label>Caller Local Time:</label></td>
+    <td class="tg-yw4l-d" height="5">{{callTime}}</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l-c" height="5"><label>Location:</label></td>
+    <td class="tg-yw4l-d" height="5">{{ location }}</td>
+  </tr>
+
+</table>
